@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  color: #2d3748;
+}
+
+.login-container .log-box {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.login-container .log-box .log-heading {
+  margin: 1.5em 0 0.5em;
+}
+.login-container .log-box .log-heading h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.2em;
+  font-family: "Abel", sans-serif;
+}
+.login-container .log-box .form-box {
+  border: 1px solid #b7cde1;
+  padding: 20px;
+  margin: 2em 0;
+  text-align: left;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.login-container .log-box .form-box .u-name {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0.8em;
+}
+.login-container .log-box .form-box .lab {
+  color: #4A5568;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.4;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.login-container .log-box .form-box .lab span {
+  color: red;
+}
+.login-container .log-box .form-box input {
+  border: 1px solid #CBD5E0;
+  border-radius: 5px;
+  color: #4A5568;
+  padding: 0.4em 0.5em;
+  max-width: 100%;
+  box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
+}
+.login-container .log-box .form-box .pwd-eye {
+  border: 1px solid #CBD5E0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.8em;
+}
+.login-container .log-box .form-box .pwd-eye input {
+  border: none;
+  width: 100%;
+}
+.login-container .log-box .form-box .pwd-eye span img {
+  padding: 4px;
+  opacity: 0.4;
+}
+.login-container .log-box .form-box .log-btn {
+  margin: 0 0 0.8em;
+}
+.login-container .log-box .form-box .log-btn button {
+  border-radius: 3px;
+  background: #e7cacf;
+  color: black;
+  padding: 0.4em 1em;
+  border: 0;
+  line-height: 1.6;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-right: 10px;
+}
+.login-container .log-box .form-box .log-btn button:hover {
+  color: white;
+  background-color: #4A5568;
+}
+.login-container .log-box .form-box .log-btn input {
+  margin-right: 4px;
+}
+.login-container .log-box .form-box .log-btn span {
+  color: #4A5568;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.4;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.login-container .log-box .form-box a {
+  color: #8ca9cb;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.1s linear;
+}
+.login-container .log-box .form-box a:hover {
+  color: #e7cacf;
+}
+
+@media only screen and (max-width: 1024px) {
+  .login-container .log-box {
+    padding: 10px;
+  }
+}/*# sourceMappingURL=log_in.css.map */

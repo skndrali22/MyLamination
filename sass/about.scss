@@ -1,0 +1,302 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.second-sec {
+    padding: 20px;
+    padding-top: 40px;
+
+    .sec-main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+
+        .slider-con {
+            width: 100%;
+            margin: 0;
+            box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+            padding: 10px 10px 40px 10px;
+            margin-bottom: 30px;
+
+            .heading {
+                padding: 0;
+                h3 {
+                    padding-top: 15px;
+                    text-align: center;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    margin-bottom: 1.5rem;
+                }
+            }
+
+            .detail-box {
+                p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 1.6;
+                    color: #2d3748;
+                }
+            }
+
+            .slider-box {
+                .mySwiper4 {
+                    padding-bottom: 30px;
+                    .swiper-button-next {
+                        color: black;
+                        background-color: rgb(209, 209, 209);
+                        border-radius: 4px;
+                        width: 26px;
+                        height: 28px;
+                    }
+
+                    .swiper-pagination-bullet-active{
+                         background-color: black;
+                    }
+
+                    .swiper-button-next:after {
+                        font-size: 10px;
+                        font-weight: bold;
+                    }
+
+                    .swiper-button-prev {
+                        color: black;
+                        background-color: rgb(209, 209, 209);
+                        border-radius: 4px;
+                        width: 26px;
+                        height: 28px;
+                    }
+
+                    .swiper-button-prev:after {
+                        font-size: 10px;
+                        font-weight: bolder;
+                    }
+
+                    .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+                    .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+                        left: 10px;
+                    }
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            img {
+                                width: 100%;
+                                height: 450px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .award-sec {
+            padding: 10px;
+            padding-bottom: 40px;
+
+            .award-img-main {
+                padding: 0;
+
+                .img-box {
+                    img {
+                        width: 100%;
+                        height: 550px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .award-main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #faf1f2;
+
+                .award-list {
+                    h3 {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 1.2em;
+                        text-transform: uppercase;
+                        margin-top: 20px;
+                    }
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+
+                        li {
+                            p {
+                                font-size: 20px;
+
+                                span {
+                                    svg {
+                                        width: 1em;
+                                        height: 1em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    p {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 1.6;
+                    }
+
+                    .award-btn {
+                        color: #2d3748;
+                        background-color: #e7cacf;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        line-height: 24px;
+                        border-width: 2px 2px 2px 2px;
+                        padding: 4px 8px 4px 8px;
+                        text-transform: capitalize;
+                        transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+
+                        &:hover {
+                            color: white;
+                            background-color: #2d3748;
+                        }
+                    }
+                }
+            }
+        }
+
+        .study-sec {
+            background-color: #faf1f2;
+            padding: 30px;
+
+            .study-main {
+                width: 100%;
+                margin: 0;
+                background-color: white;
+                box-shadow:0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+
+                .study-heading1 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 34px;
+                    line-height: 1.2em;
+                    text-align: center;
+                    margin: 1.5em 0 0.5em;
+                }
+
+                .study-heading2 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 1.5;
+                    margin-bottom: 0.5em;
+                }
+
+                .img-box {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .study-heading3 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 1.5;
+                    margin: 1.5em 0 0.5em;
+                    color: #8ca9cb;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 1.6;
+                    color: #2d3748;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .second-sec .sec-main .study-sec .study-main .study-heading1 {
+        padding: 0;
+        font-size: 20px;
+        line-height: 1.4em;
+        margin: 0.5em 0 0.5em;
+    }
+    .second-sec .sec-main .study-sec .study-main{
+        padding: 10px;
+    }
+    .second-sec .sec-main .study-sec .study-main .study-heading2{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .second-sec .sec-main .study-sec .study-main .study-heading3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 0.5em 0 0.5em;
+        color: #8ca9cb;
+    }
+    .second-sec .sec-main .slider-con {
+        gap: 1rem;
+        padding: 0 0 40px 0;
+        margin-top: -50px;
+        position: relative;
+        background: white;
+    }
+
+    .second-sec .sec-main .slider-con .heading h3 {
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+    .second-sec .sec-main .slider-con .detail-box p {
+        padding: 0 15px;
+    }
+    .second-sec .sec-main .slider-con .slider-box .mySwiper4 .swiper-button-next {
+        width: 34px;
+        height: 34px;
+    }
+
+    .second-sec .sec-main .slider-con .slider-box .mySwiper4 .swiper-button-prev {
+        width: 34px;
+        height: 34px;
+    }
+
+    .second-sec .sec-main .award-sec .award-main .award-list {
+        padding: 40px 10px;
+    }
+
+    .second-sec .sec-main .study-sec .study-main .img-box {
+        padding-bottom: 20px;
+    }
+
+    .second-sec .sec-main .award-sec .award-img-main .img-box img {
+        height: 850px;
+        object-position: 0 35%;
+    }
+    .second-sec .sec-main .study-sec {
+        background-color: #faf1f2;
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .second-sec .sec-main .slider-con .slider-box .mySwiper4 .swiper-wrapper .swiper-slide img {
+        height: 200px;
+    }
+    .second-sec .sec-main .slider-con .slider-box{
+        padding: 0 10px;
+    }
+    .second-sec .sec-main .slider-con .slider-box .mySwiper4 .swiper-button-next,
+    .second-sec .sec-main .slider-con .slider-box .mySwiper4 .swiper-button-prev{
+        display: none;
+    }
+}

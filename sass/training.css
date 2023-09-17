@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  color: #2d3748;
+}
+
+.tr-first-sec .first-main {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+.tr-first-sec .first-main .img-container {
+  background-image: url("../images/bg1.jpg");
+  background-position: 48% 38%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tr-first-sec .first-main .img-container .heading {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.tr-first-sec .first-main .img-container .heading h2 {
+  font-size: 75px;
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif;
+  line-height: 60px;
+}
+.tr-first-sec .first-main .img-container .heading h4 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  font-weight: 300;
+}
+.tr-first-sec .first-main .overlay-box {
+  filter: opacity(100%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.6;
+  background-color: white;
+}
+
+.learn-lam-pd {
+  padding: 20px;
+}
+.learn-lam-pd .pd-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.learn-lam-pd .pd-main .main-box {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+  padding: 15px 5px;
+  margin-top: -80px;
+  position: relative;
+  z-index: 10;
+  background: white;
+}
+.learn-lam-pd .pd-main .main-box .pd-detail-outer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.learn-lam-pd .pd-main .main-box .pd-detail-outer .pd-detail h3 {
+  font-family: "Abel", sans-serif;
+  max-width: 650px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.3em;
+  margin: 1.5em 0 0.5em;
+}
+.learn-lam-pd .pd-main .main-box .pd-detail-outer .pd-detail p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2d3748;
+}
+.learn-lam-pd .pd-main .main-box .cert-img {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.learn-lam-pd .pd-main .main-box .cert-img .cert-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.heading-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.heading-detail h3 {
+  padding-bottom: 0px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Abel", sans-serif;
+  text-transform: capitalize;
+}
+.heading-detail p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 0;
+}
+.heading-detail p a {
+  color: #8ca9cb;
+  transition: all 0.1s linear;
+}
+.heading-detail p a:hover {
+  color: #f5dbdc;
+}
+
+.lash-course {
+  padding: 20px;
+}
+.lash-course .lash-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.lash-course .lash-main .lash-box,
+.lash-course .lash-main .bundled-disp {
+  justify-content: center;
+}
+.lash-course .lash-main .lash-box .lash-card,
+.lash-course .lash-main .bundled-disp .lash-card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+  padding: 10px;
+  min-height: 500px;
+}
+.lash-course .lash-main .lash-box .lash-card .card-img img,
+.lash-course .lash-main .bundled-disp .lash-card .card-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+}
+.lash-course .lash-main .lash-box .lash-card .lashbrows,
+.lash-course .lash-main .bundled-disp .lash-card .lashbrows {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0.5em;
+}
+.lash-course .lash-main .lash-box .lash-card .lash,
+.lash-course .lash-main .bundled-disp .lash-card .lash {
+  color: #e7cacf;
+}
+.lash-course .lash-main .lash-box .lash-card .brows,
+.lash-course .lash-main .bundled-disp .lash-card .brows {
+  color: #8ca9cb;
+}
+.lash-course .lash-main .lash-box .lash-card .browslashes,
+.lash-course .lash-main .bundled-disp .lash-card .browslashes {
+  color: #c8c8c8;
+}
+.lash-course .lash-main .lash-box .lash-card .lashes-imp,
+.lash-course .lash-main .bundled-disp .lash-card .lashes-imp {
+  color: #e7cacf;
+}
+.lash-course .lash-main .lash-box .lash-card p,
+.lash-course .lash-main .bundled-disp .lash-card p {
+  text-align: center;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+.lash-course .lash-main .lash-box .lash-card h2,
+.lash-course .lash-main .bundled-disp .lash-card h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: "Abel", sans-serif;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link,
+.lash-course .lash-main .bundled-disp .lash-card .price-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link .price h3,
+.lash-course .lash-main .bundled-disp .lash-card .price-link .price h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Abel", sans-serif;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link .price h3 del,
+.lash-course .lash-main .bundled-disp .lash-card .price-link .price h3 del {
+  font-size: 20px;
+  color: #718096;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link .price h3 span,
+.lash-course .lash-main .bundled-disp .lash-card .price-link .price h3 span {
+  font-size: 18px;
+  color: #595959;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link .learn-link a,
+.lash-course .lash-main .bundled-disp .lash-card .price-link .learn-link a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  padding: 0.6em 1em;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  background-color: #e7cacf;
+  border-radius: 4px;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link .learn-link a svg,
+.lash-course .lash-main .bundled-disp .lash-card .price-link .learn-link a svg {
+  width: 1em;
+  height: 1em;
+}
+.lash-course .lash-main .lash-box .lash-card .price-link .learn-link a:hover,
+.lash-course .lash-main .bundled-disp .lash-card .price-link .learn-link a:hover {
+  color: white;
+  background-color: #8ca9cb;
+}
+
+.kit-btn-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.kit-btn-box .kit-btn {
+  border: none;
+  background-color: white;
+  text-transform: capitalize;
+  padding: 5px 8px;
+  margin: 0 10px 0 0;
+  color: #444;
+  font-weight: 700;
+  transition: all 0.35s ease-in-out;
+}
+
+.kit-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.kit-main .all-kit .kit-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.kit-main .all-kit .kit-box .pd-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.kit-main .all-kit .kit-box .kit-card {
+  border: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  box-shadow: 5px 15px 15px -10px rgba(0, 0, 0, 0.1);
+}
+.kit-main .all-kit .kit-box .kit-card .img-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.kit-main .all-kit .kit-box .kit-card .kit-detail {
+  background-color: white;
+  padding: 0 0 40px 0;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -30px;
+  border-bottom: lpx solid;
+}
+.kit-main .all-kit .kit-box .kit-card .kit-detail .kit-heading {
+  padding-bottom: 18px;
+}
+.kit-main .all-kit .kit-box .kit-card .kit-detail .kit-heading h2 {
+  padding: 10px 0 5px 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+}
+.kit-main .all-kit .kit-box .kit-card .kit-detail .kit-heading h2 a {
+  text-decoration: none;
+  color: black;
+}
+.kit-main .all-kit .kit-box .kit-card .kit-detail .kit-link {
+  text-align: center;
+}
+.kit-main .all-kit .kit-box .kit-card .kit-detail .kit-link a {
+  background-color: #e7cacf;
+  text-decoration: none;
+  color: #333333;
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.trainers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.trainers .tr-box {
+  width: 100%;
+  margin: 0;
+}
+.trainers .tr-box .tr-detail {
+  padding: 0;
+}
+.trainers .tr-box .tr-detail .tr-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #faf1f2;
+  padding: 0 15px;
+}
+.trainers .tr-box .tr-detail .tr-content .tr-det h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.2em;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+}
+.trainers .tr-box .tr-detail .tr-content .tr-det p {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 2rem;
+}
+.trainers .tr-box .tr-detail .tr-content .tr-det .tr-link {
+  text-align: center;
+}
+.trainers .tr-box .tr-detail .tr-content .tr-det .tr-link a {
+  cursor: pointer;
+  font-size: 1.125rem;
+  box-shadow: 2px 2px 3px 0px rgba(10, 10, 10, 0.25);
+  background: linear-gradient(180deg, white 0%, #8ca9cb 100%);
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.trainers .tr-box .tr-detail .tr-content .tr-det .tr-link a svg {
+  width: 1em;
+  height: 1em;
+}
+.trainers .tr-box .tr-detail .tr-content .tr-det .tr-link a:hover {
+  background: linear-gradient(180deg, #f5dbdc 0%, #e7cacf 100%);
+}
+.trainers .tr-box .tr-fig {
+  padding: 0;
+}
+.trainers .tr-box .tr-fig .tr-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 990px) {
+  .lash-course .lash-main .lash-box .lash-card .price-link,
+  .lash-course .lash-main .bundled-disp .lash-card .price-link {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .lash-course .lash-main .lash-box .lash-card,
+  .lash-course .lash-main .bundled-disp .lash-card {
+    min-height: 620px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tr-first-sec .first-main .img-container .heading h2 {
+    font-size: 40px;
+    line-height: 24px;
+  }
+  .tr-first-sec .first-main .img-container .heading h4 {
+    font-size: 28px;
+  }
+  .tr-first-sec .first-main .img-container {
+    height: 200px;
+  }
+  .learn-lam-pd .pd-main .main-box {
+    margin-top: -60px;
+  }
+  .kit-main .all-kit .kit-box {
+    display: block;
+  }
+  .learn-lam-pd {
+    padding: 10px;
+  }
+  .learn-lam-pd .pd-main .main-box {
+    flex-direction: column-reverse;
+    padding: 10px 5px;
+  }
+  .lash-course .lash-main .lash-box,
+  .lash-course .lash-main .bundled-disp {
+    gap: 2rem;
+  }
+  .learn-lam-pd .pd-main .main-box .pd-detail-outer .pd-detail h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  .lash-course .lash-main .lash-box .lash-card h2 {
+    margin-bottom: 10px;
+  }
+  .lash-course .lash-main .lash-box .lash-card .card-img img {
+    height: 450px;
+  }
+  .lash-course .lash-main .lash-box {
+    gap: 2rem;
+  }
+  .trainers .tr-box {
+    flex-direction: column-reverse;
+  }
+  .trainers .tr-box .tr-detail .tr-content {
+    padding: 40px 20px;
+  }
+  .kit-main .all-kit .kit-box .kit-card .kit-detail .kit-link a {
+    font-size: 16px;
+    line-height: 1.2em;
+    padding: 6px 12px;
+  }
+  .kit-main .all-kit .kit-box .kit-card .kit-detail {
+    padding: 0 10px 30px 10px;
+    padding-bottom: 30px;
+    min-height: 150px;
+  }
+  .kit-main .all-kit .kit-box .pd-content {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .kit-main .all-kit .kit-box .kit-card .img-box img {
+    height: 120px;
+  }
+  .kit-main .all-kit .kit-box .kit-card .kit-detail {
+    width: 100%;
+  }
+  .kit-main .all-kit .kit-box .kit-card .kit-detail {
+    min-height: 130px;
+  }
+  .kit-main {
+    padding: 0 15px;
+  }
+  .learn-lam-pd {
+    padding: 10px;
+  }
+  .heading-detail {
+    padding: 20px;
+  }
+  .lash-course {
+    padding: 10px;
+  }
+  .lash-course .lash-main .lash-box .lash-card .price-link,
+  .lash-course .lash-main .bundled-disp .lash-card .price-link {
+    flex-direction: row;
+  }
+  .lash-course .lash-main .lash-box .lash-card .card-img img {
+    height: 210px;
+  }
+  .lash-course .lash-main .lash-box .lash-card,
+  .lash-course .lash-main .bundled-disp .lash-card {
+    min-height: 450px;
+  }
+  .kit-btn-box {
+    margin: 0;
+    padding: 0;
+  }
+  .trainers {
+    padding: 10px 20px;
+  }
+  .trainers .tr-box .tr-detail .tr-content {
+    padding: 30px 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .lash-course .lash-main .lash-box .lash-card .price-link .learn-link a,
+  .lash-course .lash-main .bundled-disp .lash-card .price-link .learn-link a {
+    padding: 10px 4px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .lash-course .lash-main .lash-box .lash-card .price-link .price h3,
+  .lash-course .lash-main .bundled-disp .lash-card .price-link .price h3 {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .trainers .tr-box .tr-detail .tr-content .tr-det .tr-link a {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=training.css.map */
